@@ -10,6 +10,8 @@ namespace Restorapp.Model
         private int id;
         private string nombre;
 
+        ~Mesero() { }
+
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
 

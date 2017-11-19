@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Restorapp",
+    "\\Restorapp\\Model",
+    "\\Restorapp\\View",
+    "\\Restorapp\\View\\js"
   ],
+  "SelectedNode": "\\Restorapp\\Model\\Pedido.cs",
   "PreviewInSolutionExplorer": false
 }

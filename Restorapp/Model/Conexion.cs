@@ -11,7 +11,7 @@ namespace Restorapp.Model
 {
     public class Conexion
     {
-        private SqlConnection con; // Connection
+        private SqlConnection conn; // Connection
         private SqlCommand sen; // Statement
         public SqlDataReader rs; // ResultSet
 
@@ -19,7 +19,7 @@ namespace Restorapp.Model
         {
             try
             {
-                con = new SqlConnection(
+                conn = new SqlConnection(
                             "Data Source=localhost;" +
                             "Initial Catalog=" + bd + "; " +
                             "User id=sa; " +
@@ -28,7 +28,7 @@ namespace Restorapp.Model
             }
             catch (Exception)
             {
-                con = new SqlConnection(
+                conn = new SqlConnection(
                     "Data Source=localhost;" +
                     "Initial Catalog=" + bd + ";" +
                     "Integrated Security=SSPI;"
@@ -39,10 +39,8 @@ namespace Restorapp.Model
 
         public void Ejecutar(String query)
         {
-            //Console.WriteLine("QUERY=" + query);
-
-            con.Open();
-            sen = new SqlCommand(query, con);
+            conn.Open();
+            sen = new SqlCommand(query, conn);
 
             if (query.ToLower().Contains("select"))
             {
@@ -57,7 +55,7 @@ namespace Restorapp.Model
 
         public void Cerrar()
         {
-            con.Close();
+            conn.Close();
         }
     }
 }

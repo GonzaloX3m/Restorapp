@@ -1,0 +1,9 @@
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\bin\Restorapp.dll.config
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\bin\Restorapp.dll
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\bin\Restorapp.pdb
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\obj\Debug\Restorapp.csprojResolveAssemblyReference.cache
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\obj\Debug\Restorapp.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\obj\Debug\Restorapp.dll
+C:\Users\Gonzalo\source\repos\Restorapp\Restorapp\obj\Debug\Restorapp.pdb
